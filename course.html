@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Website</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/kuvempu.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.php">BLOG</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="logout.php">LOGOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Explore Our Diverse Courses</h1>
+    </section>
+    
+    
+
+    
+    <section class="course">
+        <h1>Programs We Offer</h1>
+        <p>Discover a wide range of programs designed to help you achieve your academic and career goals.</p>
+        <div class="row">
+            <div class="course-col">
+                <details>
+                    <summary>
+                <h3>Technology and Programming</h3>  
+            </summary>
+                <p class="unique">Web Development</p>
+                <p class="unique">Data Science</p>
+                <p class="unique">Artificial Intelligence and Machine Learning</p>
+                <p class="unique">Cybersecurity</p>
+                <p class="unique">Cloud Computing</p>
+                </details>
+                <hr>
+                <p>"Explore the future of education at Amity-University! Offering a wide range of undergraduate, postgraduate, and online courses, we blend academic excellence with innovation to prepare you for a dynamic world. Join us to unlock your potential and achieve your dreams."</p>
+            </div>
+            <div class="course-col">
+                <details><summary>
+                <h3>Bachelor's Degree</h3>  </summary>
+                <p class="unique">Bachelor of Computer Applications (BCA)</p>
+                <p class="unique">Bachelor of Technology (B.Tech)</p>
+                <p class="unique">Bachelor of Science (BSc)</p>
+                <p class="unique">Bachelor of Commerce (BCom)</p>
+              </details>
+              <hr>
+                <p>At Kuvempu-University, we offer a diverse range of bachelor's programs across disciplines, including Arts, Science, Commerce, Technology, and more, designed to cater to the interests and aspirations of every student. With a focus on practical learning, innovative teaching methods, and industry relevance, our programs prepare graduates to thrive in today’s competitive world.</p>
+            </div>
+            <div class="course-col">
+                <details><summary>
+                <h3>Master's Degree</h3></summary>
+                <p class="unique">Master of Computer Applications (MCA)</p>
+                <p class="unique">Master of Technology (M.Tech)</p>
+                <p class="unique">Master of Science (MSc)</p>
+                <p class="unique">Master of Commerce (MCom)</p>
+                </details>
+                <hr>
+                <p>At Kuvempu-University, our Master's programs span a variety of disciplines, including Arts, Science, Technology, Business, and more. With cutting-edge curriculum, expert faculty, and opportunities for research and real-world application, we ensure you are ready to excel in your professional journey.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section class="facility">
+        <h1>Our Exceptional Facilities</h1>
+        <p>We provide state-of-the-art facilities to support your learning experience.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="./images/pngtree-an-empty-library-with-shelves-and-books-picture-image_3364462.jpg">
+                    <h3>Comprehensive Library</h3>
+                    <p>Access a vast collection of resources to aid your studies and research.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="./images/e3a302d8e8535845dbbd9fe5bc2c4e79.jpg">
+                    <h3>Extensive Sports Facilities</h3>
+                    <p>Engage in various sports activities in our well-equipped sports complex.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="./images/canteen.jpg">
+                    <h3>Healthy Dining Options</h3>
+                    <p>Enjoy nutritious meals in our cafeteria, designed to cater to all dietary needs.</p>
+                </div>
+            </div>
+    </section>
+    
+
+
+<section class="footer">
+        <h4>About Our University</h4>
+        <p>We are committed to providing quality education and fostering a supportive learning environment for all students.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a href="https://x.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Kuvempu <i class="fa fa-heart-o"></i> University</p>
+</section>    
+  
+  
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>
